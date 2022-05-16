@@ -1,0 +1,19 @@
+*{margin:0; padding:0;}
+#container{width: 1200px; margin:0 auto;}
+
+/* header 영역 */
+header{height: 80px; background-color: green;}
+header #logo{width:300px; float: left; padding:15px 30px;}
+header #logo a{color:yellow; text-decoration: none;} 
+header nav{width: 800px; float: right;}
+header #topMenu{list-style: none; margin-right: 50px; text-align: right;}
+header #topMenu li{display: inline-block; margin:15px; padding:15px 30px;}
+header #topMenu li a{color: white; text-decoration: none; }
+
+/* section 영역 healing */
+#contents{width: 1000px; margin:20px auto;}
+#contents section div{margin: 30px 10px 100px 10px;}
+#contents section p{line-height: 2;}
+#contents #healing img, #activity img{float: left; margin-right: 20px; border-radius: 20px;}
+#contents #healing .detail ul li{list-style: none; margin: 10px;}
+#contents #travel ul{list-style:square; margin: 0 auto;}
